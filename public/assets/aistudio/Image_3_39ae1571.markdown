@@ -1,0 +1,238 @@
+---
+name: Obsidian Kinetic
+colors:
+  surface: '#fbf9f9'
+  surface-dim: '#dbdad9'
+  surface-bright: '#fbf9f9'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f5f3f3'
+  surface-container: '#efeded'
+  surface-container-high: '#e9e8e7'
+  surface-container-highest: '#e3e2e2'
+  on-surface: '#1b1c1c'
+  on-surface-variant: '#4c4546'
+  inverse-surface: '#303031'
+  inverse-on-surface: '#f2f0f0'
+  outline: '#7e7576'
+  outline-variant: '#cfc4c5'
+  surface-tint: '#5e5e5e'
+  primary: '#000000'
+  on-primary: '#ffffff'
+  primary-container: '#1b1b1b'
+  on-primary-container: '#848484'
+  inverse-primary: '#c6c6c6'
+  secondary: '#0054cb'
+  on-secondary: '#ffffff'
+  secondary-container: '#256df0'
+  on-secondary-container: '#fefcff'
+  tertiary: '#000000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00210d'
+  on-tertiary-container: '#009850'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e2e2e2'
+  primary-fixed-dim: '#c6c6c6'
+  on-primary-fixed: '#1b1b1b'
+  on-primary-fixed-variant: '#474747'
+  secondary-fixed: '#dae2ff'
+  secondary-fixed-dim: '#b1c5ff'
+  on-secondary-fixed: '#001947'
+  on-secondary-fixed-variant: '#00419f'
+  tertiary-fixed: '#7cfca5'
+  tertiary-fixed-dim: '#5ede8b'
+  on-tertiary-fixed: '#00210d'
+  on-tertiary-fixed-variant: '#005229'
+  background: '#fbf9f9'
+  on-background: '#1b1c1c'
+  surface-variant: '#e3e2e2'
+typography:
+  display-hero:
+    fontFamily: Inter
+    fontSize: 52px
+    fontWeight: '700'
+    lineHeight: 58px
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 42px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: -0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.02em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-mobile: 0.75rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system establishes an ultra-clean, minimalist, high-contrast visual architecture tailored for on-demand transit and urban mobility. Built upon a direct utilitarian foundation, the UI eliminates visual noise, placing focus exclusively on spatial orientation, destination selection, and vehicle status.
+
+### Aesthetic Movement & Philosophy
+The aesthetic blends **Modern Swiss Structuralism** with **High-Contrast Utilitarianism**:
+- **Absolute Contrast:** Deep jet black anchors interactive elements directly against pure, luminous white planes, ensuring immediate recognition in variable outdoor lighting conditions.
+- **Architectural Precision:** Razor-sharp surfaces, micro-borders, and strict geometric alignment eliminate decorative fluff, reinforcing punctuality, velocity, and trust.
+- **Dynamic Clarity:** Information hierarchy relies strictly on scale, font weight, and structural spacing rather than decorative colors or heavy elevation effects.
+
+## Colors
+
+The palette is resolutely monochromatic, using surgical splashes of functional color purely for wayfinding, telemetry, and critical transaction confirmation.
+
+### Palette Architecture
+- **Primary (`#000000`):** Jet Black. Applied to critical actions, dominant typography, selected ride tier cards, and primary map vectors.
+- **Surface Canvas (`#FFFFFF`):** Pure White. The primary ground for sheets, dialogs, card tiles, and mobile app chrome.
+- **Subtle Neutrals:**
+  - `Surface Subdued (#F6F6F6)`: Field fills, unselected ride option backgrounds, card hovers.
+  - `Border Soft (#E2E2E2)`: Clean hairline boundaries between UI layers and card perimeters.
+  - `Neutral Muted (#767676)`: Supporting metadata, timestamps, distance metrics, and inactive glyphs.
+- **Semantic Accents:**
+  - `Secondary (`#276EF1`)`: Navigation route polyline, live driver GPS beacon, active map pick-up pins.
+  - `Tertiary / Success (`#05A357`)`: Pricing drops, safety confirmation badges, active discount toggles.
+  - `Destructive (`#E11900`)`: Ride cancellation alerts, expired payment notifications.
+
+### Dark Mode Adaptability
+In reversed contexts, the roles strictly invert: canvas becomes `#000000`, elevated sheets sit at `#121212`, card surfaces rest at `#1A1A1A`, and primary actions render in `#FFFFFF` with `#000000` label text.
+
+## Typography
+
+The typographic system utilizes **Inter** for all display, body, and interface markers. Its tall x-height, neutral geometric construction, and ultra-crisp horizontal metrics mimic bespoke architectural wayfinding systems.
+
+### Hierarchy & Usage
+- **Display & Large Headlines:** Used for prominent prompt screens ("Where to?", "Confirm your pickup spot"). Tight negative tracking conveys modern velocity.
+- **Section & Product Titles (`headline-md`, `headline-sm`):** Reserved for vehicle service tiers (e.g., Comfort, Black, Green) and receipt totals.
+- **Body:** Standardized across trip summaries, driver instructions, and legal policies. Regular 400 weight ensures effortless legibility over moving map canvas backgrounds.
+- **Labels:** Semibold weights for touch targets, ETA counters, badge chips, and license plate tags. License plates and verification codes should apply uppercase transforms with expanded letter-spacing (`0.08em`).
+
+## Layout & Spacing
+
+The layout model uses a hybrid structure: a fluid map stage foundation overlaid by strict structural floating panels and anchored sheets.
+
+### Grid & Responsiveness
+- **Desktop (1024px+):** Fixed floating left-hand rail (width: 420px) containing booking flows, location inputs, vehicle selection, and pricing, floating over full-bleed interactive map canvas. Canvas padding rests at `margin: 2rem`.
+- **Mobile (< 768px):** Bottom-sheet architecture anchored to screen edges with `margin-mobile: 1rem` floating utility buttons (GPS recenter, SOS, Safety Hub). The bottom sheet expands through gesture-based snap points (collapsed peek at 140px, middle tier at 50vh, full screen at 90vh).
+
+### Vertical Rhythm
+A rigid 4px/8px incremental rhythm is enforced. Touch surfaces strictly respect a minimum 48px target zone, while structural vertical gaps between input fields and action bars standardise to `space-md` (16px).
+
+## Elevation & Depth
+
+This system avoids soft multi-layered blur shadows or glowing gradients. Depth is established through structural surface tiering, high-contrast borders, and focused ambient occlusion.
+
+### Elevation Hierarchy
+1. **Base Level (Level 0 - Ground):** Live interactive map layer styled in desaturated silver-gray scales with pure black street names and slate-blue route lines.
+2. **Sheet Surface (Level 1 - Floating Containers):** White (`#FFFFFF`) modular panels framed with a crisp hairline border (`1px solid #E2E2E2`). For floating desktop cards, a single crisp ambient shadow is permitted: `0px 4px 16px rgba(0, 0, 0, 0.08)`.
+3. **Selected Elements (Level 2 - Interactivity):** Active vehicle tier items switch to a black perimeter (`2px solid #000000`), immediately surfacing the card without relying on vertical lift.
+4. **Modal & Urgent Drawers (Level 3):** System alerts and driver arrival popovers sit over a 40% alpha jet-black scrim (`rgba(0, 0, 0, 0.4)`), flanked by a dense ground shadow: `0px 12px 32px rgba(0, 0, 0, 0.16)`.
+
+## Shapes
+
+The design system employs **Soft (`1`)** geometry. UI components favor architectural, restrained curves rather than playful pill structures, reinforcing precision and speed.
+
+### Geometry Token Rules
+- **Base Components (Inputs, Vehicle Cards, Buttons):** Standard radius of `0.25rem` (4px). Provides subtle refinement while maintaining sharp visual discipline.
+- **Card Groups & Modular Sheets (`rounded-lg`):** Outer sheet top edges and desktop floating cards utilize `0.5rem` (8px).
+- **Exceptions (Pills & Discs):** Map floating action icons (e.g., crosshair locate, back button) and status badges (e.g., "Fastest", "Top Rated") use circular or pill geometry to contrast against the sharp rectangular content cards.
+
+## Components
+
+### Buttons
+- **Primary:** Solid `#000000` background with `#FFFFFF` text. Flat, 0px border, `roundedness: 1` (4px). Hover state transitions to `#262626`. Height: 52px for primary mobile actions, 44px for secondary workflows.
+- **Secondary:** Solid `#EEEEEE` background with `#000000` text. Hover transitions to `#E2E2E2`.
+- **Outline / Ghost:** Transparent background with `1px solid #E2E2E2` border and `#000000` text.
+- **Destructive:** Transparent or subtle red-tint ground (`#FDF2F2`) with `#E11900` text.
+
+### Location Input Fields
+- Enclosed in a stacked vertical container connected by a visual trip line (a tiny 6px black square for pickup, a 6px black dot for destination, connected by a 1px dashed `#767676` thread).
+- Field ground: `#F6F6F6` with zero border in resting state; switches to crisp `#000000` 1px outline on focus.
+- Trailing actions: Clear (X) icon button and "Add stop (+)" pill trigger.
+
+### Ride Selection Cards
+- Horizontal card structure displaying vehicle graphic, service tier title, passenger count indicator, ETA, and final dynamic price.
+- **Resting:** Flat white surface with subtle 1px divider lines separating items.
+- **Hover:** Background shifts to `#F9F9F9`.
+- **Selected:** Framed with an unequivocal `2px solid #000000` border, subtly set back with a 2px interior offset margin.
+
+### Chips & Badges
+- Compact markers for ride attributes ("Fastest", "Electric", "Luggage x2").
+- Height: 24px, 4px corner radius, background `#F3F3F3`, text `#000000` in `label-sm`.
+- Accent chip (Promotion / Discount): `#E6F4EA` background with `#05A357` text.
+
+### Route Map Elements
+- **Polyline:** Heavy 4px solid line in `#000000` for primary completed/planned trajectory, `#276EF1` for active live vehicle segment.
+- **Pins:** Minimalist black circular discs with high-contrast centered white icon markers; driver vehicle represented by an oriented monochrome vehicle glyph.
